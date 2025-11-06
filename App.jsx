@@ -541,7 +541,7 @@
         ))}
 
         <div className="mt-8 p-5 bg-white rounded-xl shadow-lg border" style={{borderColor: BORDER}}>
-          <p className="text-xl text-black font-extrabold flex justify-between">
+          <p className="text-xl text-black font-extrabold flex justify-between ">
             <span>Total Payable:</span>
             <span className="text-2xl" style={{ color: ORANGE }}>₱{total.toFixed(2)}</span>
           </p>
@@ -549,7 +549,7 @@
 
         <div className="mt-6 space-y-3">
           <FoodButton onClick={() => setPage('checkout')}>Proceed to Checkout</FoodButton>
-          <FoodButton onClick={() => setPage('products')} variant="secondary">Add More Food</FoodButton>
+          <FoodButton  onClick={() => setPage('products')} variant="secondary">Add More</FoodButton>
         </div>
       </div>
     );
